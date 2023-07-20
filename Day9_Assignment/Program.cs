@@ -10,19 +10,19 @@ namespace Day9_Assignment
     {
         static void Main(string[] args)
         {
-            MobileNo moNum = new MobileNo();
-            Console.WriteLine("Please enter the Mobile Number:");
+            Password passWord = new Password();
+            Console.WriteLine("Please enter the Password:");
 
-            string num = Console.ReadLine();
-            bool val = moNum.ValidateMobileNumber(num);
+            string Pass = Console.ReadLine();
+            bool val = passWord.ValidatePassword(Pass);
 
             if (val)
             {
-                Console.WriteLine("Mobile number matched");
+                Console.WriteLine("Password matched");
             }
             else
             {
-                Console.WriteLine("Mobile number not matched");
+                Console.WriteLine("Password not matched");
             }
             Console.ReadLine();
         }

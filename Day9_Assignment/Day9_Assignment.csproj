@@ -47,6 +47,7 @@
     <Compile Include="FirstName.cs" />
     <Compile Include="LastName.cs" />
     <Compile Include="MobileNo.cs" />
+    <Compile Include="Password.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
