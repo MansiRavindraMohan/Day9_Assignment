@@ -10,19 +10,19 @@ namespace Day9_Assignment
     {
         static void Main(string[] args)
         {
-            FirstName FName = new FirstName();
-            Console.WriteLine("Please enter the First name:");
+            LastName LName = new LastName();
+            Console.WriteLine("Please enter the Last name:");
 
-            string firstName = Console.ReadLine();
-            bool val = FName.validateFirstName(firstName);
+            string lastName = Console.ReadLine();
+            bool val = LName.validateLastName(lastName);
 
             if (val)
             {
-                Console.WriteLine("First name matched");
+                Console.WriteLine("Last name matched");
             }
             else
             {
-                Console.WriteLine("First name not matched");
+                Console.WriteLine("Last name not matched");
             }
             Console.ReadLine();
         }
