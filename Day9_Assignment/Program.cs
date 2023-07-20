@@ -10,19 +10,19 @@ namespace Day9_Assignment
     {
         static void Main(string[] args)
         {
-            Email eMail = new Email();
-            Console.WriteLine("Please enter the Email:");
+            MobileNo moNum = new MobileNo();
+            Console.WriteLine("Please enter the Mobile Number:");
 
-            string email = Console.ReadLine();
-            bool val = eMail.ValidateEmail(email);
+            string num = Console.ReadLine();
+            bool val = moNum.ValidateMobileNumber(num);
 
             if (val)
             {
-                Console.WriteLine("Email matched");
+                Console.WriteLine("Mobile number matched");
             }
             else
             {
-                Console.WriteLine("Email not matched");
+                Console.WriteLine("Mobile number not matched");
             }
             Console.ReadLine();
         }
